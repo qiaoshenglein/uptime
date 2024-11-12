@@ -4,7 +4,6 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://cheery.fun/', label: 'Cheery Fun首页', highlight: true },
-    { link: 'https://blog.cheery.fun/', label: 'Cheery Fun's Blog' },
     { link: 'https://hotday.cheery.fun/#/', label: '今日热点' },
   ],
 }
