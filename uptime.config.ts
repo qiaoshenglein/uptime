@@ -120,7 +120,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
-      target: 'https://iptv.cheery.fun/',
+      target: 'https://iptv.cheery.fun/result',
       tooltip: '',
       statusPageLink: 'https://uptime.cheery.fun/',
       timeout: 10000,
