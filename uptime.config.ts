@@ -113,7 +113,7 @@ const workerConfig = {
       statusPageLink: 'https://uptime.cheery.fun/',
       timeout: 10000,
     },
-        },
+
                     {
       id: '8',
       name: 'IPTV直播源',
