@@ -116,11 +116,22 @@ const workerConfig = {
 
                     {
       id: '8',
-      name: 'IPTV直播源',
+      name: 'IPTV 直播源',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'GET',
       // `target` should be `host:port` for tcp monitors
       target: 'https://iptv.cheery.fun/result',
+      tooltip: '',
+      statusPageLink: 'https://uptime.cheery.fun/',
+      timeout: 10000,
+    },
+                        {
+      id: '9',
+      name: 'IPTV App',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'GET',
+      // `target` should be `host:port` for tcp monitors
+      target: 'https://iptv1.cheery.fun/',
       tooltip: '',
       statusPageLink: 'https://uptime.cheery.fun/',
       timeout: 10000,
