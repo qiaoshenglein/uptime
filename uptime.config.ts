@@ -144,7 +144,7 @@ const workerConfig = {
       // `target` should be `host:port` for tcp monitors
       target: 'https://lobe.cheery.fun/',
       tooltip: '',
-      statusPageLink: '',
+      statusPageLink: 'https://uptime.cheery.fun/',
       timeout: 10000,
     },
   ],
